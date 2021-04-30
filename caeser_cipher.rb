@@ -26,6 +26,7 @@ def old_caesar_cipher(input, shift)
   }.join('')
 end
 
+# Phrases borrowed from my 2018 solution for testing purposes. Obviously not 6 lines of code this time.
 phrase_1 = 'This handles shift values greater than 26 or less than -26'
 phrase_2 = 'It also makes effective use of array and string methods'
 phrase_3 = 'It avoids checking for direction by using modulo to convert negative values to the equivalent positive value (eg. -10 -> 16)'
